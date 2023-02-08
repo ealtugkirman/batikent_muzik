@@ -39,13 +39,18 @@ const Interview = () => {
                 {/* border */}
                 <div className='w-[70px] h-[70px] lg:w-[91px] lg:h-[91px] border border-white/40 rounded-full text-dark p-[5px] lg:p-[8px]'>
                   {/* inner */}
+                  <a href='https://www.instagram.com/reel/CoR9LxsIyM3/?utm_source=ig_web_copy_link'>
                   <div className='bg-white w-full h-full rounded-full flex justify-center items-center'>
+
                     <div className='pl-1'>{btnIcon}</div>
                   </div>
+                    </a>
                 </div>
                 {/* btn text */}
                 <div className='font-primary uppercase tracking-[0.1em]'>
+                  <a href='https://www.instagram.com/reel/CoR9LxsIyM3/?utm_source=ig_web_copy_link'>
                   {btnText}
+                  </a>
                 </div>
               </div>
             </motion.div>

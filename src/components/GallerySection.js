@@ -63,10 +63,11 @@ const GallerySection = () => {
         className='flex justify-center'
       >
         <button className='btn btn-lg btn-dark'>
+        <a href='https://instagram.com/bahadir.hocaa?igshid=OGQ2MjdiOTE='>
           {btnText}
-        <a href='https://www.instagram.com/batikentmuzik/'>
-          <div className='text-xl'>{btnIcon}</div>
+          
           </a>
+          <div className='text-xl'>{btnIcon}</div>
         </button>
       </motion.div>
     </section>
